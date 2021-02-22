@@ -5,6 +5,7 @@
 		vuetify: new Vuetify(),
 		data: function() {
 			return {
+				accept: VuetifyImageInput.props.accept.default,
 				clearable: VuetifyImageInput.props.clearable.default,
 				disabled: VuetifyImageInput.props.disabled.default,
 				drawer: true,

@@ -1,3 +1,4 @@
+import accept from './accept';
 import clearable from './clearable';
 import clearIcon from './clearIcon';
 import clearIconStyle from './clearIconStyle';
@@ -36,6 +37,7 @@ import uploadIconStyle from './uploadIconStyle';
 import value from './value';
 
 export default {
+	accept,
 	clearable,
 	clearIcon,
 	clearIconStyle,
